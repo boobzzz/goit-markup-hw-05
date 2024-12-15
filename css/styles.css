@@ -512,7 +512,11 @@ button {
 }
 
 .input-field {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+.input-field:last-child {
+    margin-bottom: 24px;
 }
 
 .form-label {
@@ -535,7 +539,7 @@ button {
     height: 40px;
     font-size: 12px;
     font-weight: 400;
-    line-height: 14px;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -568,6 +572,7 @@ button {
     width: 100%;
     height: 120px;
     resize: none;
+    color: rgba(46, 47, 66, 0.4);
 }
 
 .custom-checkbox {
@@ -585,6 +590,12 @@ button {
 
 .checkbox-icon {
     fill: transparent;
+}
+
+.form-checkbox:checked .custom-checkbox {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .form-checkbox:checked .checkbox-icon {

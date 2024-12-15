@@ -414,7 +414,7 @@
                 <div class="input-field">
                     <label class="form-label" for="user-name">Name</label>
                     <div class="input-box">
-                        <input class="form-input" type="text" id="user-name" />
+                        <input class="form-input" type="text" id="user-name" name="user-name" />
                         <svg class="form-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-person"></use>
                         </svg>
@@ -423,7 +423,7 @@
                 <div class="input-field">
                     <label class="form-label" for="user-phone">Phone</label>
                     <div class="input-box">
-                        <input class="form-input" type="tel" id="user-phone" />
+                        <input class="form-input" type="tel" id="user-phone" name="user-phone" />
                         <svg class="form-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-phone"></use>
                         </svg>
@@ -432,7 +432,7 @@
                 <div class="input-field">
                     <label class="form-label" for="user-email">Email</label>
                     <div class="input-box">
-                        <input class="form-input" type="email" id="user-email" />
+                        <input class="form-input" type="email" id="user-email" name="user-email" />
                         <svg class="form-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-email"></use>
                         </svg>
@@ -440,14 +440,15 @@
                 </div>
                 <div class="input-field">
                     <label class="form-label" for="user-comment">Comment</label>
-                    <textarea class="form-input form-textarea" id="user-comment" placeholder="Text input"></textarea>
+                    <textarea class="form-input form-textarea" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
                 </div>
-                <div class="input-field form">
+                <div class="input-field">
                     <input
                         class="form-checkbox visually-hidden"
                         type="checkbox"
                         id="user-privacy"
-                        value="true" checked />
+                        name="user-privacy"
+                        value="true" />
                     <label class="form-label form-policy" for="user-privacy">
                         <span class="custom-checkbox">
                             <svg class="checkbox-icon" width="10" height="8">
