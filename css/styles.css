@@ -515,7 +515,11 @@ button {
     margin-bottom: 16px;
 }
 
-.input-field:last-child {
+.input-field:first-child {
+    margin-bottom: 8px;
+}
+
+.input-field:nth-child(5) {
     margin-bottom: 24px;
 }
 
@@ -592,7 +596,7 @@ button {
     fill: transparent;
 }
 
-.form-checkbox:checked .custom-checkbox {
+.form-checkbox:checked span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
