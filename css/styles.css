@@ -596,13 +596,13 @@ button {
     fill: transparent;
 }
 
-.form-checkbox:checked span {
+.form-checkbox:checked + .form-policy .custom-checkbox {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
 
-.form-checkbox:checked .checkbox-icon {
+.form-checkbox:checked + .form-policy .checkbox-icon {
     fill: #F4F4FD;
 }
 
